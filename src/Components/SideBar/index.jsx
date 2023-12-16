@@ -1,4 +1,5 @@
 import React from "react";
+import SideBarListItem from "../SideBarListItem";
 import
 {BsCart3,BsGrid1X2Fill,BsFillArchiveFill,BsFillGrid3X3GapFill,
 BsPeopleFill,BsListCheck,BsMenuButtonWideFill,BsFillGearFill}
@@ -14,55 +15,14 @@ const SideBar=()=>{
                 <span className="icon-close">X</span>
             </div>
             <ul className="sidebar-list">
-                <li className="sidebar-list-item">
-
-                
-                <a href="https://www.google.com/">
-                    <BsGrid1X2Fill className="icon"/>Dashboard
-                </a>
-                </li>
-                <li className="sidebar-list-item">
-
-                
-                <a href="https://www.google.com/">
-                    <BsFillArchiveFill className="icon"/>Products
-                </a>
-                </li>
-                <li className="sidebar-list-item">
-
-                
-                <a href="https://www.google.com/">
-                    <BsFillGrid3X3GapFill className="icon"/>Categories
-                </a>
-                </li>
-                <li className="sidebar-list-item">
-
-                
-                <a href="https://www.google.com/">
-                    <BsPeopleFill className="icon"/>Customer
-                </a>
-                </li>
-                <li className="sidebar-list-item">
-
-                
-                <a href="https://www.google.com/">
-                    <BsListCheck className="icon"/>Inventory
-                </a>
-                </li>
-                <li className="sidebar-list-item">
-
-                
-                <a href="https://www.google.com/">
-                    <BsMenuButtonWideFill className="icon"/>Response
-                </a>
-                </li>
-                <li className="sidebar-list-item">
-
-                
-                <a href="https://www.google.com/">
-                    <BsFillGearFill className="icon"/>Settings
-                </a>
-                </li>
+                <SideBarListItem icon={BsGrid1X2Fill} name="Dashboard" link="https://www.google.com/"/>
+                <SideBarListItem icon={BsFillArchiveFill} name="Products" link="https://www.google.com/"/>
+                <SideBarListItem icon={BsFillGrid3X3GapFill} name="Categories" link="https://www.google.com/"/>
+                <SideBarListItem icon={BsPeopleFill} name="Customer" link="https://www.google.com/"/>
+                <SideBarListItem icon={BsListCheck} name="Inventory" link="https://www.google.com/"/>
+                <SideBarListItem icon={BsMenuButtonWideFill} name="Response" link="https://www.google.com/"/>
+                <SideBarListItem icon={BsFillGearFill} name="Settings" link="https://www.google.com/"/>
+          
             </ul>
         </aside>
         

@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.card:first-child{
+background-color:blue;
+}
+.card:nth-child(2){
+background-color:rgb(100, 100, 7);
+}
+.card:nth-child(3){
+background-color:rgb(128, 0, 70);
+}
+.card:nth-child(4){
+    background-color: rgb(133, 15, 11);
+}
+.card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-inner > .card-icon {
+    font-size: 25px;
+}

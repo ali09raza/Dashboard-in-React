@@ -3,6 +3,7 @@ import './home.scss';
 import CustomBarChart from "../CustomBarChart";
 import CustomLineChart from "../CustomLineChart";
 import Data from "../Data";
+import Card from "../Card";
 
 import {BsFillArchiveFill,
     BsFillGrid3X3GapFill,
@@ -22,38 +23,10 @@ const Home=()=>{
                 <h3>DASHBOARD</h3>
             </div>
             <div className="main-cards">
-                <div className="card">
-                <div className="card-inner">
-                    <h3>PRODUCTS</h3>
-                    <BsFillArchiveFill className="card-icon"/>
-                    
-                </div>
-                <h1>300</h1>
-                </div>
-                <div className="card">
-                <div className="card-inner">
-                    <h3>Categories</h3>
-                    <BsFillGrid3X3GapFill className="card-icon"/>
-                    
-                </div>
-                <h1>12</h1>
-                </div>
-                <div className="card">
-                <div className="card-inner">
-                    <h3>Customers</h3>
-                    <BsPeopleFill className="card-icon"/>
-                    
-                </div>
-                <h1>33</h1>
-                </div>
-                <div className="card">
-                <div className="card-inner">
-                    <h3>Alerts</h3>
-                    <BsFillBellFill className="card-icon"/>
-                    
-                </div>
-                <h1>42</h1>
-                </div>
+              <Card name="Products" icon={BsFillArchiveFill} number={300} />
+              <Card name="Categories" icon={BsFillGrid3X3GapFill} number={12} />
+              <Card name="Customers" icon={BsPeopleFill} number={33} />
+              <Card name="Alerts" icon={BsFillBellFill} number={57} />
 
             </div>
             <div className="charts">
