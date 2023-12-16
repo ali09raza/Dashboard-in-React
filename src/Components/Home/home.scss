@@ -46,10 +46,13 @@ background-color:rgb(128, 0, 70);
     font-size: 25px;
 }
 .charts{
-display: grid;
-grid-template-columns: 1fr 1fr;
+display: flex;
+// grid-template-columns: 1fr 1fr;
 gap: 20px;
+align-items: flex-start;
+width: 100vw;
 margin-top: 60px;
+flex-direction: column;
 height: 300px;
 
 }
