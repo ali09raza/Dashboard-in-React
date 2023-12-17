@@ -1,5 +1,5 @@
 import
-{BsGrid1X2Fill,BsFillArchiveFill,BsFillGrid3X3GapFill,
+{BsFillArchiveFill,BsFillGrid3X3GapFill,
 BsPeopleFill,BsListCheck,BsMenuButtonWideFill,BsFillGearFill}
 from 'react-icons/bs';
 import {ReactComponent as Dashboard} from '../../assets/Icons/dashboard-icon.svg'
